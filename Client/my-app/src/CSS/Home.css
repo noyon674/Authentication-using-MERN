@@ -1,0 +1,10 @@
+.bacgroundHome{
+    background-color: cadetblue;
+    height: 100vh;
+    text-align: center;
+}
+.element1{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 200px;
+}

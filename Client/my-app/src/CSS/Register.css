@@ -1,0 +1,30 @@
+.background{
+    background-color:turquoise;
+    text-align: center;
+    height: 100vh;
+}
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.form_h1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+.label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 10px;
+}
+.input{
+    padding: 5px 20px;
+    margin: 10px;
+}
+
+.button{
+    padding: 10px 20px;
+}

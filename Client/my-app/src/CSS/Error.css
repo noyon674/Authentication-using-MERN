@@ -1,0 +1,14 @@
+.backgroundErr{
+    background-color:yellow;
+    height: 100vh;
+    text-align: center;
+}
+.h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    padding-top: 100px;
+}
+.p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+}

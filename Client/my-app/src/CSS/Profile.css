@@ -1,0 +1,10 @@
+.background{
+    background-color: yellowgreen;
+    height: 100vh;
+}
+.profileElement{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
