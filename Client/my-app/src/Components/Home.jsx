@@ -1,6 +1,8 @@
+//import file
 import React from 'react'
 import '../CSS/Home.css'
 
+//home component
 const Home = () =>{
   return (
     <div className='bacgroundHome'>

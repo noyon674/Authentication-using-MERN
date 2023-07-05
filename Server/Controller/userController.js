@@ -73,7 +73,7 @@ const Login = async (req, res)=>{
         };
 
         //token ganaret
-        const Token = jwt.sign(payload, process.env.SECRET_KEY, {expiresIn: '2d' });
+        const Token = jwt.sign(payload, process.env.SECRET_KEY, {expiresIn: '5h' });
 
         //token return
         return res.status(200).send({

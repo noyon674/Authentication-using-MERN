@@ -16,9 +16,6 @@ app.use(express.urlencoded({extended: true}));
 //database connection
 require('./config/database');
 
-//passport require
-require('./config/passport');
-
 //all routes here
 app.use(userRouter);
 

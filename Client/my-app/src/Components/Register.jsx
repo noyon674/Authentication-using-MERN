@@ -1,26 +1,36 @@
+//import file
 import React, { useState } from 'react'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import '../CSS/Register.css';
 
+//registration component
 const Register =() => {
+  //navigator for redirect
   const navigate = useNavigate();
 
   const [username, setUsername ] = useState('');
   const [password, setPassword ] = useState('');
   const [phone, setNumber ] = useState('');
 
+  //registration handler
   const handleRegister = ()=>{
+
+    //passing username, password, phon number to the backend
     axios.post('http://localhost:3500/register', {username, password, phone})
+
+    //if registration complete then redirect to the login page
     .then(()=>{
       console.log('Register completed.')
       navigate('/login');
     })
+
+    //if registration is not complete then stay register page
     .catch((err)=>{
       console.log(err);
       navigate('/register');
     })
-  }
+  };
 
   return (
     <div className='background'>
@@ -43,6 +53,7 @@ const Register =() => {
       </div>
     </div>
   )
-}
+};
 
+//export Register component
 export default Register;

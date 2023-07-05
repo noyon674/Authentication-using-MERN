@@ -1,6 +1,8 @@
+//import file
 import React from 'react';
 import '../CSS/Error.css'
 
+//error component
  const Error = () =>{
   return (
     <div className='backgroundErr'>

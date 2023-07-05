@@ -7,7 +7,7 @@ const {Home, Register, Login, Profile} = require('../Controller/userController')
 Router.get('/', Home); //home route
 Router.post('/register', Register) //register route
 Router.post('/login', Login) //login route
-Router.get('/profile', checkVerify, Profile)
+Router.get('/profile', checkVerify, Profile) //profile route, protected route, verifying middleware
 
 
 

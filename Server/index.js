@@ -1,7 +1,11 @@
+//import files
+require('dotenv').config();
 const App = require('./App');
 
-const port = 3500;
+//define a server port
+const port = process.env.PORT;
 
+//server starting from here
 App.listen(port, ()=>{
     console.log(`http://localhost:${port}`);
-})
+});

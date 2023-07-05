@@ -1,3 +1,4 @@
+//import files
 import React from "react";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from '../Components/Home';
@@ -7,6 +8,7 @@ import Profile from '../Components/Profile';
 import Error from '../Components/Error';
 import Layout from "../Layouts/Header";
 
+//router componenet
 const Router = ()=>{
     return(
         <BrowserRouter>
@@ -21,4 +23,6 @@ const Router = ()=>{
         </BrowserRouter>
     );
 };
+
+//export router
 export default Router;
